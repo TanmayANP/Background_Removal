@@ -1,8 +1,8 @@
-# Remove your image Background within few seconds
+# Remove image Background within few seconds
 * Created a python script to remove background from any image using PixelLib Python Library.
 * DeepLearning model used is also provided by PixelLib.
 * Can be used for any image file type and for any size.
-* Accuracy of this script depends on the DL model and which preforms best when object is well distinguishable from the background.
+* Accuracy of this script depends on the DL model which performs best when object is well distinguishable from the background.
 ## Code and Resources Used
 **Python version:** 3.8  
 **Packages:** numpy, PIL, pixellib, tensorflow, imgaug  
@@ -21,8 +21,8 @@ The accuracy of this script depends on the amount of different objects present i
 **Without Background**  
 <img src="demo_images_without_background/bird_bg.jpg" width='50%'> <br/> <br/>
 **With Background**  
-<img src="demo_images_with_background/women_potrait.jpg" width='50%'> <br/> <br/>
+<img src="demo_images_with_background/car.jpg" width='50%'> <br/> <br/>
 **Without Background**  
-<img src="demo_images_without_background/women_potrait_bg.jpg" width='50%'> <br/> <br/>
+<img src="demo_images_without_background/car_bg.jpg" width='50%'> <br/> <br/>
 If want to see some other transformation there are some other images in demo folders.  
 As we can see, it successfully removes background from any type of image as long as the main object is clear.
